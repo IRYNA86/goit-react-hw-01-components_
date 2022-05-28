@@ -1,0 +1,34 @@
+.friendList {
+    margin: 15px;
+    }
+.item {
+    display: flex;
+  width: 110px;
+  height: 60px;
+  margin-bottom: 5px;
+  border: 2px solid red;
+  border-radius: 2px;
+  padding: 5px;
+}
+.statusBlue {
+  box-sizing: content-box;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: 1px solid blue;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.statusRed {
+  box-sizing: content-box;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: 1px solid red;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.name {
+    margin-top: auto;
+    margin-bottom: auto;
+}
