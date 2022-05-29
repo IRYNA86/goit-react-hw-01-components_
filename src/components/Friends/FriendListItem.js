@@ -21,6 +21,5 @@ FriendListItem.propTypes = {
   name: PropTypes.string.isRequired,
 }
 
-
 export default FriendListItem;
 
