@@ -6,9 +6,10 @@
   width: 110px;
   height: 60px;
   margin-bottom: 5px;
-  border: 2px solid red;
+  border: 2px solid green;
+  box-shadow: 0px 0px 15px 5px #a34b23;
   border-radius: 2px;
-  padding: 5px;
+  padding: 20px;
 }
 .statusBlue {
   box-sizing: content-box;
@@ -31,4 +32,5 @@
 .name {
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: 5px;
 }

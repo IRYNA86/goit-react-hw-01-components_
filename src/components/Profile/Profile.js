@@ -8,7 +8,7 @@ function Profile({avatar, username, tag, location, stats }) {
     <img width = '100px'
       src={avatar}
       alt="User avatar"
-      class="avatar"
+      className={css.avatar}
     />
     <p className={css.name}>{username}</p>
     <p className={css.tag}>{tag}</p>
@@ -16,15 +16,15 @@ function Profile({avatar, username, tag, location, stats }) {
   </div>
 
   <ul className={css.stats}>
-    <li>
+    <li className={css.item}>
       <span className={css.label}>Followers</span>
       <span className={css.quantity}> {stats.followers}</span>
     </li>
-    <li>
+    <li className={css.item}>
       <span className={css.label}>Views</span>
       <span className={css.quantity}> {stats.views}</span>
     </li>
-    <li>
+    <li className={css.item}>
       <span className={css.label}>Likes</span>
       <span className={css.quantity}> {stats.likes}</span>
     </li>

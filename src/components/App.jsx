@@ -21,6 +21,7 @@ export const App = () => {
         stats={profileUser.stats}
       />
       <Statistics title="Upload stats" stats={data} />
+      
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
     </div>
